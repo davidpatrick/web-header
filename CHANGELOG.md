@@ -1,3 +1,11 @@
+<a name="4.0.33"></a>
+## 4.0.33 (2017-10-09)
+
+* order and add new item in industries section ([1466d7d](https://github.com/auth0/web-header/commit/1466d7d))
+* Trigger patch release ([4577a8f](https://github.com/auth0/web-header/commit/4577a8f))
+
+
+
 <a name="4.0.32"></a>
 ## 4.0.32 (2017-09-13)
 
