@@ -108,21 +108,15 @@
             "titleList": "INDUSTRIES",
             "items": [
               {
-                "name": "Retail",
-                "id": "retail",
-                "href": "https://auth0.com/retail",
-                "external": true
-              },
-              {
                 "name": "B2B SaaS",
                 "id": "b2b-saas",
                 "href": "https://auth0.com/b2b-saas",
                 "external": true
               },
               {
-                "name": "Media",
-                "id": "media",
-                "href": "https://auth0.com/learn/media",
+                "name": "Financial Services",
+                "id": "financial-services",
+                "href": "https://auth0.com/learn/finserv",
                 "external": true
               },
               {
@@ -132,15 +126,21 @@
                 "external": true
               },
               {
-                "name": "Telecommunications",
-                "id": "telecommunications",
-                "href": "https://auth0.com/learn/telecommunications-industry",
+                "name": "Media",
+                "id": "media",
+                "href": "https://auth0.com/learn/media",
                 "external": true
               },
               {
-                "name": "More",
-                "id": "more-solutions",
-                "href": "https://auth0.com/customers#categories",
+                "name": "Retail",
+                "id": "retail",
+                "href": "https://auth0.com/retail",
+                "external": true
+              },
+              {
+                "name": "Telecommunications",
+                "id": "telecommunications",
+                "href": "https://auth0.com/learn/telecommunications-industry",
                 "external": true
               }
             ]
