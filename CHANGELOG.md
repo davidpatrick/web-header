@@ -1,3 +1,11 @@
+<a name="4.0.34"></a>
+## 4.0.34 (2017-10-18)
+
+* Add new featured message ([1258c1d](https://github.com/auth0/web-header/commit/1258c1d))
+* Tigger patch release ([3fbdbf0](https://github.com/auth0/web-header/commit/3fbdbf0))
+
+
+
 <a name="4.0.33"></a>
 ## 4.0.33 (2017-10-09)
 
