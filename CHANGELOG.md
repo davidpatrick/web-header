@@ -1,3 +1,11 @@
+<a name="4.0.35"></a>
+## 4.0.35 (2017-10-19)
+
+* Trigger patch release ([6319e41](https://github.com/auth0/web-header/commit/6319e41))
+* update link solutions healthcare ([9a58ea0](https://github.com/auth0/web-header/commit/9a58ea0))
+
+
+
 <a name="4.0.34"></a>
 ## 4.0.34 (2017-10-18)
 
