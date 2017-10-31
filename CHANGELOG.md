@@ -1,3 +1,10 @@
+<a name="4.0.36"></a>
+## 4.0.36 (2017-10-31)
+
+* Update featured metadata ([642bdc8](https://github.com/auth0/web-header/commit/642bdc8))
+
+
+
 <a name="4.0.35"></a>
 ## 4.0.35 (2017-10-19)
 
