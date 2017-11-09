@@ -8,10 +8,11 @@
   ],
   "scripts": {
     "build": "npm run build:normal && npm run build:cdn",
-    "build:normal": "webpack --config ./tools/webpack/webpack.module.config.babel.js",
+    "build:normal": "NODE_ENV=production webpack --config ./tools/webpack/webpack.module.config.babel.js",
     "build:cdn": "CDN=true webpack --config ./tools/webpack/webpack.module.config.babel.js",
     "build:heroku": "NODE_ENV=production webpack --config ./tools/webpack/webpack.playground.config.babel.js",
     "heroku-postbuild": "npm run build:heroku",
+    "postinstall": "npm run prepublish",
     "start:dev": "NODE_ENV=development babel-node ./tools/tasks/start.js",
     "prepublish": "NODE_ENV=production npm run build -- --bail",
     "lint:js": "eslint .",
@@ -33,12 +34,7 @@
     "axios": "^0.16.1",
     "classnames": "^2.2.5",
     "lodash": "^4.13.1",
-    "prop-types": "^15.5.10"
-  },
-  "peerDependencies": {
-    "react": "^15.0.0"
-  },
-  "devDependencies": {
+    "prop-types": "^15.5.10",
     "@auth0/styleguide-core": "^2.0.5",
     "autoprefixer": "^6.3.6",
     "babel-cli": "^6.18.0",
@@ -83,6 +79,9 @@
     "webpack-dev-middleware": "^1.6.1",
     "webpack-hot-middleware": "^2.12.1",
     "webpack-node-externals": "^1.6.0"
+  },
+  "peerDependencies": {
+    "react": "^15.0.0"
   },
   "cdn-component": {
     "name": "web-header",
