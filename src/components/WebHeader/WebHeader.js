@@ -38,8 +38,7 @@ class WebHeader extends Component {
     talkToSalesButtonLink: PropTypes.string,
     talkToSalesButtonOnClick: PropTypes.func,
     talkToSalesButtonText: PropTypes.string,
-    authElementEnable: PropTypes.bool,
-    authElement: PropTypes.node,
+    userProfile: PropTypes.node,
     breakpoint: PropTypes.number
   };
 
@@ -65,8 +64,7 @@ class WebHeader extends Component {
     talkToSalesButtonLink: '?contact=true',
     talkToSalesButtonOnClick: () => {},
     talkToSalesButtonText: 'Talk to Sales',
-    authElementEnable: false,
-    authElement: null,
+    userProfile: null,
     breakpoint: 992
   };
 
@@ -178,8 +176,7 @@ class WebHeader extends Component {
       loginButtonLink,
       loginButtonOnClick,
       loginButtonText,
-      authElementEnable,
-      authElement
+      userProfile
     } = this.props;
     const {
       navbarDropdownIsOpen,
@@ -295,7 +292,7 @@ class WebHeader extends Component {
                 >
                   {loginButtonEnable && loginButton}
                   {signupButtonEnable && signupButton}
-                  {authElementEnable && authElement}
+                  {userProfile}
                 </div>
               </div>
             </div>
